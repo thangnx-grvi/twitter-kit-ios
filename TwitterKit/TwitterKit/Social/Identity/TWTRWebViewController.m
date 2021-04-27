@@ -18,9 +18,9 @@
 #import "TWTRWebViewController.h"
 #import <TwitterCore/TWTRAuthenticationConstants.h>
 
-@interface TWTRWebViewController () <UIWebViewDelegate>
+@interface TWTRWebViewController () <WKNavigationDelegate>
 
-@property (nonatomic, strong) UIWebView *webView;
+@property (nonatomic, strong) WKWebView *webView;
 @property (nonatomic, assign) BOOL showCancelButton;
 @property (nonatomic, copy) TWTRWebViewControllerCancelCompletion cancelCompletion;
 
@@ -65,29 +65,26 @@
 
 - (void)loadView
 {
-    [self setWebView:[[UIWebView alloc] init]];
-    [[self webView] setScalesPageToFit:YES];
-    [[self webView] setDelegate:self];
+    [self setWebView:[[WKWebView alloc] init]];
+    //[[self webView] setScalesPageToFit:YES];
+    [[self webView] setNavigationDelegate:self];
     [self setView:[self webView]];
 }
 
-#pragma mark - UIWebview delegate
-
-- (BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType
+#pragma mark - WKWebView delegate
+- (void)webView:(WKWebView *)webView decidePolicyForNavigationAction:(WKNavigationAction *)navigationAction decisionHandler:(void (^)(WKNavigationActionPolicy))decisionHandler
 {
-    if (![self whitelistedDomain:request]) {
+    if (![self whitelistedDomain:navigationAction.request]) {
         // Open in Safari if request is not whitelisted
-        NSLog(@"Opening link in Safari browser, as the host is not whitelisted: %@", request.URL);
-        [[UIApplication sharedApplication] openURL:request.URL];
-        return NO;
+        NSLog(@"Opening link in Safari browser, as the host is not whitelisted: %@", navigationAction.request.URL);
+        [[UIApplication sharedApplication] openURL:navigationAction.request.URL];
     }
     if ([self shouldStartLoadWithRequest]) {
-        return [self shouldStartLoadWithRequest](self, request, navigationType);
+        [self shouldStartLoadWithRequest](self, navigationAction.request, navigationAction.navigationType);
     }
-    return YES;
 }
 
-- (void)webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error
+- (void)webView:(WKWebView *)webView didFailLoadWithError:(NSError *)error
 {
     if (self.errorHandler) {
         self.errorHandler(error);

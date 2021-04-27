@@ -111,7 +111,6 @@
 		37500FE11A898D36008DD8FF /* BlackLivesMatterSearchResults.json in Resources */ = {isa = PBXBuildFile; fileRef = 37500FE01A898D36008DD8FF /* BlackLivesMatterSearchResults.json */; };
 		37500FE31A898DC3008DD8FF /* TWTRJSONSerializationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37500FE21A898DC3008DD8FF /* TWTRJSONSerializationTests.m */; };
 		37500FE51A8991B3008DD8FF /* JackDorseyUserTimeline.json in Resources */ = {isa = PBXBuildFile; fileRef = 37500FE41A8991B3008DD8FF /* JackDorseyUserTimeline.json */; };
-		3754A6481CCACAFD0044E159 /* TWTRLoginURLParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3754A6471CCACAFD0044E159 /* TWTRLoginURLParserTests.m */; };
 		3754A64F1CCACCC10044E159 /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3754A64D1CCACCA50044E159 /* SafariServices.framework */; };
 		37550597196B1692001A914F /* TWTRTweetImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 37550595196B1692001A914F /* TWTRTweetImageView.h */; };
 		37550598196B1692001A914F /* TWTRTweetImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 37550596196B1692001A914F /* TWTRTweetImageView.m */; };
@@ -256,7 +255,6 @@
 		3D3CD7DB1951202900FD6B72 /* TWTRAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3CD7D91951202900FD6B72 /* TWTRAPIClient.m */; };
 		3D45D6E51B9F7CAA00087F30 /* TWTRCookieStorageUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D45D6E31B9F7CAA00087F30 /* TWTRCookieStorageUtil.h */; };
 		3D45D6E71B9F7CAA00087F30 /* TWTRCookieStorageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D45D6E41B9F7CAA00087F30 /* TWTRCookieStorageUtil.m */; };
-		3D45D7001B9F8E7100087F30 /* TWTRCookieStorageUtilTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D45D6FF1B9F8E7100087F30 /* TWTRCookieStorageUtilTests.m */; };
 		3D4D2FAC1B79217F0011C544 /* TWTRURLSessionConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D4D2FAA1B79217F0011C544 /* TWTRURLSessionConfig.h */; };
 		3D5AD5791CC06F2700239BBE /* TWTRMoPubVersionChecker.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D5AD5771CC06F2700239BBE /* TWTRMoPubVersionChecker.h */; };
 		3D5AD57A1CC06F2700239BBE /* TWTRMoPubVersionChecker.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D5AD5771CC06F2700239BBE /* TWTRMoPubVersionChecker.h */; };
@@ -363,8 +361,8 @@
 		6C58C4D41AE7109A00D042C7 /* TWTROAuthSigning.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C58C4D31AE7109A00D042C7 /* TWTROAuthSigning.m */; };
 		6C58C4D61AE7112200D042C7 /* TWTROAuthSigning.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C58C4D21AE7102900D042C7 /* TWTROAuthSigning.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6C58C4D71AE7112200D042C7 /* TWTROAuthSigning.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C58C4D21AE7102900D042C7 /* TWTROAuthSigning.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6C58C4D91AE7149400D042C7 /* TWTROAuthSigningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C58C4D81AE7149400D042C7 /* TWTROAuthSigningTests.m */; };
 		6C9581CD1AE1EDBD002981F8 /* TWTRAPIClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C9581CC1AE1EDBD002981F8 /* TWTRAPIClientTests.m */; };
+		74969F532636174200FEEB85 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74969F502636174100FEEB85 /* WebKit.framework */; };
 		7B154E1519CB5F0C00B6B64C /* TWTRLogInButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B154E1119CB5DE500B6B64C /* TWTRLogInButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7B154E1619CB5F0C00B6B64C /* TWTRLogInButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B154E1219CB5DE500B6B64C /* TWTRLogInButton.m */; };
 		7B154E6D19D33A5300B6B64C /* TWTRBezierPaths.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B154E6B19D33A5300B6B64C /* TWTRBezierPaths.h */; };
@@ -375,7 +373,6 @@
 		92B9AC9119DF359D00E8BC68 /* UserWithEmailResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 92B9AC9019DF359D00E8BC68 /* UserWithEmailResponse.json */; };
 		92B9AC9319DF388E00E8BC68 /* UserWithEmptyEmailResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 92B9AC9219DF388E00E8BC68 /* UserWithEmptyEmailResponse.json */; };
 		92B9AC9519DF392E00E8BC68 /* UserWithNullEmailResponse.json in Resources */ = {isa = PBXBuildFile; fileRef = 92B9AC9419DF392E00E8BC68 /* UserWithNullEmailResponse.json */; };
-		99C96FBF19E4A7E100AF2304 /* TWTRWebViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 99C96FBE19E4A7E100AF2304 /* TWTRWebViewControllerTests.m */; };
 		9D0AE5A91AC7359D00884B45 /* TWTRDateFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D0AE5A71AC7359D00884B45 /* TWTRDateFormatter.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		9D0AE5AA1AC7359D00884B45 /* TWTRDateFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0AE5A81AC7359D00884B45 /* TWTRDateFormatter.m */; };
 		9D0AE5AC1AC736C300884B45 /* TWTRDateFormatterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D0AE5AB1AC736C300884B45 /* TWTRDateFormatterTests.m */; };
@@ -840,7 +837,6 @@
 		37500FE21A898DC3008DD8FF /* TWTRJSONSerializationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWTRJSONSerializationTests.m; sourceTree = "<group>"; };
 		37500FE41A8991B3008DD8FF /* JackDorseyUserTimeline.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = JackDorseyUserTimeline.json; sourceTree = "<group>"; };
 		37510DA81D3EC1080048227C /* TwitterKit.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = TwitterKit.xcconfig; path = Config/TwitterKit.xcconfig; sourceTree = "<group>"; };
-		3754A6471CCACAFD0044E159 /* TWTRLoginURLParserTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWTRLoginURLParserTests.m; sourceTree = "<group>"; };
 		3754A64D1CCACCA50044E159 /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
 		37550595196B1692001A914F /* TWTRTweetImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWTRTweetImageView.h; sourceTree = "<group>"; };
 		37550596196B1692001A914F /* TWTRTweetImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWTRTweetImageView.m; sourceTree = "<group>"; };
@@ -977,7 +973,6 @@
 		3D3E0C37199440AF00E0C667 /* TWTRAPIClient_Private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = TWTRAPIClient_Private.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		3D45D6E31B9F7CAA00087F30 /* TWTRCookieStorageUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWTRCookieStorageUtil.h; sourceTree = "<group>"; };
 		3D45D6E41B9F7CAA00087F30 /* TWTRCookieStorageUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWTRCookieStorageUtil.m; sourceTree = "<group>"; };
-		3D45D6FF1B9F8E7100087F30 /* TWTRCookieStorageUtilTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWTRCookieStorageUtilTests.m; sourceTree = "<group>"; };
 		3D49A74819B9AD4D0018B381 /* TWTRTweetShareItemProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWTRTweetShareItemProvider.h; sourceTree = "<group>"; };
 		3D49A74919B9AD4D0018B381 /* TWTRTweetShareItemProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWTRTweetShareItemProvider.m; sourceTree = "<group>"; };
 		3D4D2FAA1B79217F0011C544 /* TWTRURLSessionConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWTRURLSessionConfig.h; sourceTree = "<group>"; };
@@ -1079,9 +1074,9 @@
 		6C45B2D91B013FAA00CD0FF2 /* TWTRTwitterAPIServiceConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWTRTwitterAPIServiceConfig.m; sourceTree = "<group>"; };
 		6C58C4D21AE7102900D042C7 /* TWTROAuthSigning.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TWTROAuthSigning.h; sourceTree = "<group>"; };
 		6C58C4D31AE7109A00D042C7 /* TWTROAuthSigning.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWTROAuthSigning.m; sourceTree = "<group>"; };
-		6C58C4D81AE7149400D042C7 /* TWTROAuthSigningTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWTROAuthSigningTests.m; sourceTree = "<group>"; };
 		6C7FCB5A1AE59D5A008F41C9 /* TwitterSocialTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TwitterSocialTests.m; sourceTree = "<group>"; };
 		6C9581CC1AE1EDBD002981F8 /* TWTRAPIClientTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = TWTRAPIClientTests.m; sourceTree = "<group>"; };
+		74969F502636174100FEEB85 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/iOSSupport/System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
 		7B154E1119CB5DE500B6B64C /* TWTRLogInButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWTRLogInButton.h; sourceTree = "<group>"; };
 		7B154E1219CB5DE500B6B64C /* TWTRLogInButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWTRLogInButton.m; sourceTree = "<group>"; };
 		7B154E6B19D33A5300B6B64C /* TWTRBezierPaths.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWTRBezierPaths.h; sourceTree = "<group>"; };
@@ -1096,7 +1091,6 @@
 		92B9AC9019DF359D00E8BC68 /* UserWithEmailResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; lineEnding = 0; path = UserWithEmailResponse.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.javascript; };
 		92B9AC9219DF388E00E8BC68 /* UserWithEmptyEmailResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; lineEnding = 0; path = UserWithEmptyEmailResponse.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.javascript; };
 		92B9AC9419DF392E00E8BC68 /* UserWithNullEmailResponse.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; lineEnding = 0; path = UserWithNullEmailResponse.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.javascript; };
-		99C96FBE19E4A7E100AF2304 /* TWTRWebViewControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWTRWebViewControllerTests.m; sourceTree = "<group>"; };
 		9D0AE5A71AC7359D00884B45 /* TWTRDateFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWTRDateFormatter.h; sourceTree = "<group>"; };
 		9D0AE5A81AC7359D00884B45 /* TWTRDateFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWTRDateFormatter.m; sourceTree = "<group>"; };
 		9D0AE5AB1AC736C300884B45 /* TWTRDateFormatterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWTRDateFormatterTests.m; sourceTree = "<group>"; };
@@ -1396,6 +1390,7 @@
 				DB2242681C3F2194008A6DC7 /* Foundation.framework in Frameworks */,
 				DB2242671C3F218F008A6DC7 /* UIKit.framework in Frameworks */,
 				DB2242661C3F2188008A6DC7 /* CoreGraphics.framework in Frameworks */,
+				74969F532636174200FEEB85 /* WebKit.framework in Frameworks */,
 				DB2242611C3F2181008A6DC7 /* CoreData.framework in Frameworks */,
 				DB22427F1C3F24A2008A6DC7 /* libTwitterCore.a in Frameworks */,
 				BFE839801ADF237A0035CBA1 /* libTwitterKit.a in Frameworks */,
@@ -1408,6 +1403,7 @@
 		208ACAB41FB2800900008F42 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				74969F502636174100FEEB85 /* WebKit.framework */,
 				AA3E099B20125EC600792255 /* MapKit.framework */,
 				AA3E099120119CA500792255 /* MobileCoreServices.framework */,
 				AAF0C9F020119BED0057F438 /* MapKit.framework */,
@@ -2207,13 +2203,9 @@
 			isa = PBXGroup;
 			children = (
 				6C9581CC1AE1EDBD002981F8 /* TWTRAPIClientTests.m */,
-				6C58C4D81AE7149400D042C7 /* TWTROAuthSigningTests.m */,
 				BF8EF2DE1AFD4F65008B4829 /* TWTRSessionTests.m */,
 				3DCC41931B6B657800A08C7D /* TWTRTestSessionStore.h */,
 				3DCC41941B6B657800A08C7D /* TWTRTestSessionStore.m */,
-				99C96FBE19E4A7E100AF2304 /* TWTRWebViewControllerTests.m */,
-				3D45D6FF1B9F8E7100087F30 /* TWTRCookieStorageUtilTests.m */,
-				3754A6471CCACAFD0044E159 /* TWTRLoginURLParserTests.m */,
 			);
 			name = Identity;
 			path = SocialTests/Identity;
@@ -2978,6 +2970,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				ko,
 				ja,
@@ -3130,7 +3123,6 @@
 				371D04811E81B72F0029756B /* TWTRComposerTests.m in Sources */,
 				37F32AF81CEA61D3004BE14F /* TWTRTimelineMessageViewTests.m in Sources */,
 				DB0908A11B60587300FE4CD3 /* TWTRSessionMigratorTests.m in Sources */,
-				3754A6481CCACAFD0044E159 /* TWTRLoginURLParserTests.m in Sources */,
 				370B4EF11A8BFE7A004FBA60 /* TWTRTimelineViewControllerTests.m in Sources */,
 				2297B2D91DDD3BD700B859B0 /* TWTRTimelineFilterTests.m in Sources */,
 				37B008291C0D0E0F009D27D5 /* TWTRImageViewControllerTests.m in Sources */,
@@ -3138,7 +3130,6 @@
 				37500FE31A898DC3008DD8FF /* TWTRJSONSerializationTests.m in Sources */,
 				374DE5F71CD401C400657CEE /* TWTRWebAuthenticationViewControllerTests.m in Sources */,
 				37958CC91E842CBC00E86ED2 /* TWTRComposerNetworkingTests.m in Sources */,
-				3D45D7001B9F8E7100087F30 /* TWTRCookieStorageUtilTests.m in Sources */,
 				DB6DF1971C20FD700025D42C /* TWTRVideoPlaybackRulesTests.m in Sources */,
 				37B008271C0CF468009D27D5 /* TWTRImageTestHelper.m in Sources */,
 				3D5AD5871CC1591300239BBE /* TWTRMopubVersionCheckerTests.m in Sources */,
@@ -3190,13 +3181,11 @@
 				DB811E5E1C519CAF00A1F453 /* TWTRValueTransformersTests.m in Sources */,
 				374306A01B45ADC000D7C540 /* TWTRShareButtonTests.m in Sources */,
 				3DCC41961B6B657800A08C7D /* TWTRTestSessionStore.m in Sources */,
-				99C96FBF19E4A7E100AF2304 /* TWTRWebViewControllerTests.m in Sources */,
 				3DC0C1171C63484E00F5DACA /* TWTRMoPubAdConfigurationTests.m in Sources */,
 				378E40A3198C129200EE3364 /* TWTRTableViewCellTests.m in Sources */,
 				37FBC2AF1B4DC67C006949E9 /* TWTRLikeButtonTests.m in Sources */,
 				BF8EF2DF1AFD4F65008B4829 /* TWTRSessionTests.m in Sources */,
 				DBD3635A1D765464006C3642 /* TWTRMediaContainerViewControllerTests.m in Sources */,
-				6C58C4D91AE7149400D042C7 /* TWTROAuthSigningTests.m in Sources */,
 				3DF8F0871B20FCA100FAF579 /* TWTRImageLoaderDiskCacheTests.m in Sources */,
 				3777841B1E96B8D200BC4830 /* TUDelorean.m in Sources */,
 				6C9581CD1AE1EDBD002981F8 /* TWTRAPIClientTests.m in Sources */,
@@ -3567,9 +3556,15 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 37510DA81D3EC1080048227C /* TwitterKit.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				BITCODE_GENERATION_MODE = bitcode;
 				CODE_SIGN_IDENTITY = "";
 				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/System/iOSSupport/System/Library/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -3577,6 +3572,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.twitter.sdk.ios;
 				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -3584,9 +3581,15 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 37510DA81D3EC1080048227C /* TwitterKit.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				BITCODE_GENERATION_MODE = bitcode;
 				CODE_SIGN_IDENTITY = "";
 				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/System/iOSSupport/System/Library/Frameworks",
+				);
+				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -3594,6 +3597,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.twitter.sdk.ios;
 				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
